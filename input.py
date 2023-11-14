@@ -4,6 +4,9 @@ size = int(input())
 maps = [int(i) for i in input().split(" ")]
 maps = list(map(int, input().split(" "))) #map()は組み込みの関数です。第1引数の関数を第2引数のリストの要素に適用します。
 
+#1 2
+x,y = input().split(" ")
+
 #2 4
 #1 2 3 4
 #5 6 7 8
